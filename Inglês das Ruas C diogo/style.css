@@ -1,0 +1,147 @@
+*{
+ margin: 0  ;
+ padding: 0 ;
+    font-family: 'Onest', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #25160f;;
+    
+}
+body{
+    background: linear-gradient(90deg,#cdbb9e 0%,#ab8468 100%);
+}
+main{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+   
+}
+.logo{
+   width: 600px;
+   
+    
+}
+
+.buttons{
+   margin-left: 20%;
+   margin-right: 20%;
+    list-style: none;
+    margin-top: 170px;
+    text-decoration: none;
+justify-content: space-around;
+display: flex;
+flex-direction: row;
+}
+.lista-btn{
+    color: white;
+    background-color: #25160f;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.lista-btn:hover{
+    transition: 0.3s;
+    color: #cdad8b60;
+}
+.text-p{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 25px;
+    white-space: pre-wrap;
+    color: #25160f;;
+}
+.btn-artist{
+color: #25160f;
+background-color: #cdbb9e;
+padding: 20px;  
+margin: 20px; 
+box-shadow: rgba(62, 23, 3, 0.4) 3px 3px, rgba(39, 12, 1, 0.3) 7px 7px, rgba(59, 20, 1, 0.2) 11px 11px, rgba(31, 7, 1, 0.1) 16px 16px, rgba(32, 5, 1, 0.05) 21px 21px;
+
+
+}
+.btn-artist:hover{
+    transition: 0.3s;
+    color: #5a4130a3;
+}
+.artistas{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 55px;
+}
+.btn-voltar{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ab8468;
+    background-color: #25160f;
+    margin-left: 50%;
+    margin-top: 50PX;
+    margin-bottom: 200px;
+}
+.btn-return{
+    color: #ab8468;
+}
+.btn-return:hover{
+    transition: 0.3s;
+    color: rgba(148, 123, 102, 0.701);
+}
+
+iframe{
+    width: 620px ;
+    height: 425px;
+    margin-top: 70px;
+    box-shadow: rgba(54, 35, 6, 0.25) 0px 14px 28px, rgba(47, 28, 19, 0.22) 0px 10px 10px;}
+
+
+input{
+    width: 100px;
+    height: 100px;
+}
+   .caixa{
+    margin-top: 60px;
+    width: 470px;
+    background-color: #32261b10;
+    border-radius: 5px;
+    padding: 25px 25px 35px;
+    font-size: 25px;
+    box-shadow: rgba(83, 54, 31, 0.4) 5px 5px, rgba(71, 41, 20, 0.3) 10px 10px, rgba(52, 33, 9, 0.2) 15px 15px, rgba(34, 11, 3, 0.1) 20px 20px, rgba(36, 12, 1, 0.05) 25px 25px;   } 
+
+   .caixa h2{
+    font-size: 25px;
+    text-align: center;
+    color: #1c0f09;
+
+
+   }
+   .caixa textarea{
+    width: 100%;
+    height: 59px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    border-color: #25160f;
+    padding: 5px;
+    
+   }
+   textarea{
+    margin-top: 35px;
+   }
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
